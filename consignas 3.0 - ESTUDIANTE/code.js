@@ -39,10 +39,7 @@ function obtenerDatosDelUsuario() {
 
   datosPersona.nombre = prompt("ingresa tu nombre");
   datosPersona.edad = prompt("ingresa el año en que naciste");
-  // if (isNaN(datosPersona.edad)) {
-  //   alert("El año de nacimiento debe ser un número válido.");
-  //   return;
-  // }
+  
   datosPersona.ciudad = prompt("ingrese la ciudad donde vives");
   datosPersona.interesPorJs = confirm("te interesa Javascript");
 
